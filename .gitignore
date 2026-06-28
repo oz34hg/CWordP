@@ -1,0 +1,50 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+Makefile
+
+# Generated files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.a
+*.lib
+
+# Qt generated files
+moc_*
+ui_*.h
+qrc_*.cpp
+*.qrc.dep
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IntelliJ IDEA / CLion
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
